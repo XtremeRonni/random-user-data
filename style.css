@@ -37,7 +37,7 @@ body {
     transition: all 0.4s ease-in-out;
 }
 .profile:hover {
-    border: 5px solid rgb(198, 33, 40);
+    border: 5px solid #c62128;
     box-shadow: 0 10px 25px rgb(116, 3, 8);
     transform: scale(1.1);
 }
