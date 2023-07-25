@@ -8,7 +8,6 @@ const url = 'https://randomuser.me/api/';
 fetch(url)
 .then(response => response.json())
 .then(json => {
-    console.log(json.results);
     const tableDiv = document.querySelector('.table');
 
     const imageDiv = document.querySelector('.profile');
@@ -22,4 +21,6 @@ fetch(url)
         <p class="placeholder">Age: <span class="age">${json.results[0].dob.age}</p>
         <p class="placeholder">Country: <span class="place">${json.results[0].location.country}</p>
         `
-})
+});
+
+console.log(`Made my Abhee wit '❤'`);
