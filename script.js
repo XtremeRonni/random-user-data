@@ -23,4 +23,4 @@ fetch(url)
         `
 });
 
-console.log(`Made my Abhee with '❤'`);
+console.log(`Made my Abhee with `);
